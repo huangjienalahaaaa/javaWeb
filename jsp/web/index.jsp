@@ -13,8 +13,6 @@
     <title>$Title$</title>
   </head>
   <body>
-
-
   <%
     List<User> list = new ArrayList<>();
     list.add(new User("张三",22));
