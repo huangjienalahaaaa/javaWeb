@@ -12,8 +12,8 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("UTF-8");
     String[] names =request.getParameterValues("name");
-
 %>
 <%--Arrays.toString的作用：将数组里值取出来，然后拼接到一起--%>
 <%=Arrays.toString(names)%>
