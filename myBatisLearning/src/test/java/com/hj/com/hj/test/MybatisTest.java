@@ -50,6 +50,5 @@ public class MybatisTest {
         //6.释放资源
         session.close();
         in.close();
-
     }
 }
